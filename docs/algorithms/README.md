@@ -153,4 +153,10 @@ Aqui estão os algoritmos distribuídos e padrões de controle de fluxo de infra
 * **Onde treinar no Monorepo**: [21-fraud-network-clustering](./21-fraud-network-clustering/README.md).
 * **Foco Staff**: Lidar com processamento incremental de fluxo de alta vazão com acúmulo exato de tamanhos de conjunto nas uniões, evitando re-processar caminhos inteiros por buscas de grafos tradicionais lineares ($O(V+E)$).
 
+### 26. Motor de Ordenação de Baixa Latência (HFT & Bancos de Dados)
+* **O Padrão**: Ordenação física otimizada em memória contígua contornando o limite matemático de comparações via Radix Sort Bitwise $O(n)$ ou Merge Sort estável com buffer pooling pré-alocado.
+* **Onde treinar no Monorepo**: [22-sorting-algorithms](./22-sorting-algorithms/README.md).
+* **Foco Staff**: Empregar micro-otimizações como zero alocação de Heap, substituição de comparadores virtuais por inline primitivos e acoplamento híbrido com Insertion Sort para subarrays curtos.
+
+
 
