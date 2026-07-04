@@ -28,8 +28,11 @@ O repositório está organizado de forma modular, dividindo as especificações 
 ├── scripts/               # Scripts de utilidade e governança de repositório
 │   └── validate_links.ps1
 └── docs/                  # Guias conceituais e desafios de engenharia divididos por tema
-    ├── interview-prep/    # Perguntas & Respostas de simulação de entrevistas de elite
-    │   └── staff-drill-qa.md
+    ├── recruitment-challenge/ # Portal central de desafios de recrutamento e entrevistas
+    │   ├── senior-developer/  # Desafios focados no nível Dev Senior (L5)
+    │   ├── tech-lead/         # Desafios focados no nível Tech Lead (L5/L6)
+    │   ├── staff-engineer/    # Desafios focados no nível Staff Engineer (L6+)
+    │   └── interview-prep/    # Perguntas & Respostas de simulação de entrevistas de elite (Q&A)
     ├── microservices/     # Padrões de microsserviços e sistemas distribuídos
     │   ├── 01-rate-limiter-local/
     │   ├── ...
@@ -50,8 +53,8 @@ Para iniciar seus estudos, navegue pelos índices e matrizes de cobertura dos do
 
 * **[Guia de Microsserviços & System Design](./docs/microservices/microservices-patterns-training.md)**: Mapeamento de 31 padrões de arquitetura distribuída, cobrindo desde API Gateways e Sagas até mecanismos de isolamento multi-tenant, migração ao vivo sem downtime e transações distribuídas (TCC).
 * **[Guia de Algoritmos & Concorrência](./docs/algorithms/README.md)**: Mapeamento de 23 estruturas de dados e algoritmos de alta performance, cobrindo os 15 padrões de código essenciais (como Sliding Window e Topological Sort) e 8 estruturas avançadas de Big Techs (como LSM-Tree, HyperLogLog, CAS SkipList e Quadtree Concorrente).
-* **[Guia de Simulação de Entrevistas Staff (Q&A de Elite)](./docs/interview-prep/staff-drill-qa.md)**: Sessão prática de perguntas e respostas técnicas aprofundadas sobre os cenários mais complexos do monorepo (como concorrência Pix, limitações Dataprev, race conditions de cache híbrido, fency tokens e pointer tagging).
-* **[Desafios de Recrutamento (Staff Engineer)](./docs/recruitment-challenge/README.md)**: Simulações ponta a ponta de processos seletivos de Big Tech (Tech Recruiter & Staff Engineer), englobando triagem, Q&A técnico, desafios Onsite de arquitetura/código e liderança para 6 domínios reais de mercado.
+* **[Portal de Desafios de Recrutamento (Multi-Nível)](./docs/recruitment-challenge/README.md)**: Simulações ponta a ponta de processos seletivos de Big Tech (Tech Recruiter & Staff Engineer), englobando triagem, Q&A técnico, desafios Onsite de arquitetura/código e liderança divididos por níveis (Senior Developer, Tech Lead e Staff Engineer).
+* **[Guia de Simulação de Entrevistas Staff (Q&A de Elite)](./docs/recruitment-challenge/interview-prep/staff-drill-qa.md)**: Sessão prática de perguntas e respostas técnicas aprofundadas sobre os cenários mais complexos do monorepo (como concorrência Pix, limitações Dataprev, race conditions de cache híbrido, fency tokens e pointer tagging).
 
 
 ---
