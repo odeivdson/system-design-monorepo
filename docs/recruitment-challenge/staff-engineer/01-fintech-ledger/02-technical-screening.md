@@ -63,13 +63,13 @@ sequenceDiagram
     participant Pay as Serviço de Pagamento
     participant DB as Banco de Dados
     
-    App->>API: POST /pagamentos {valor: 100}
+    App->>API: POST /pagamentos (valor: 100)
     API->>Pay: Processar pagamento
     Pay->>DB: Salvar transação
     Note over Pay,DB: Sucesso! Saldo debitado.
     Note over App,API: Queda de Conexão!
     App--xAPI: Resposta perdida
-    App->>API: [REQUISITAR NOVAMENTE] POST /pagamentos {valor: 100}
+    App->>API: [REQUISITAR NOVAMENTE] POST /pagamentos (valor: 100)
     Note over API,Pay: Como evitar a segunda cobrança?
 ```
 
