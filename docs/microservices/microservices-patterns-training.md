@@ -168,4 +168,9 @@ Na engenharia de software de alto nível (Staff/Principal), padrões não são a
 * **Onde treinar no Monorepo**: [19-distributed-workflow-coordinator](./19-distributed-workflow-coordinator/README.md).
 * **Foco Staff**: Uso do padrão *External Tasks* para delegar execução a workers desacoplados diminuindo a carga e contenda do banco do Camunda, com tratamento de leases expiradas por falhas físicas dos workers.
 
+### 35. Event Streaming / Server-Sent Events (SSE)
+* **O Padrão**: Entrega contínua de eventos do servidor para o cliente via conexão HTTP persistente, com reconexão e reenvio incremental de eventos.
+* **Onde treinar no Monorepo**: [24-sse-event-streaming](./20-sse-event-streaming/README.md).
+* **Foco Staff**: Implementar conexões longas eficientes, filtros de tenant/user e retransmissão segura usando `Last-Event-ID`, mantendo alto throughput e baixa latência mesmo por trás de proxies/balanceadores.
+
 

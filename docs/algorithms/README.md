@@ -136,3 +136,14 @@ Aqui estão os algoritmos distribuídos e padrões de controle de fluxo de infra
 * **Onde treinar no Monorepo**: [19-hyperloglog-cardinality](./19-hyperloglog-cardinality/README.md).
 * **Foco Staff**: Otimizações bitwise de baixo nível (instrução CLZ de CPU para contagem de zeros à esquerda), computação de médias harmônicas imunes a ruídos e correções matemáticas de pequeno/médio range de contagem.
 
+### 24. Union-Find Concorrente Lock-Free (CAS)
+* **O Padrão**: Agrupamento dinâmico de elementos (Disjoint Set Union) com operações de união e busca concorrentes livre de locks, garantindo consistência por meio de Compare-And-Swap (CAS) e Path Halving de passagem única.
+* **Onde treinar no Monorepo**: [20-concurrent-union-find](./20-concurrent-union-find/README.md).
+* **Foco Staff**: Empregar união concorrente ordenada e compressão de caminho atômica por desempate numérico para prevenir loops infinitos e deadlocks lógicos sob threads concorrentes agressivas.
+
+### 25. Agrupamento de Redes de Fraude (DSU Aplicado)
+* **O Padrão**: Consolidação e rastreamento dinâmico e incremental de redes de fraudadores baseadas em transações ativas e atributos cadastrais compartilhados (IP, dispositivo), operando em tempo quase constante.
+* **Onde treinar no Monorepo**: [21-fraud-network-clustering](./21-fraud-network-clustering/README.md).
+* **Foco Staff**: Lidar com processamento incremental de fluxo de alta vazão com acúmulo exato de tamanhos de conjunto nas uniões, evitando re-processar caminhos inteiros por buscas de grafos tradicionais lineares ($O(V+E)$).
+
+
