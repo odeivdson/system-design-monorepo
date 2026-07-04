@@ -51,6 +51,7 @@ Para iniciar seus estudos, navegue pelos índices e matrizes de cobertura dos do
 * **[Guia de Microsserviços & System Design](./docs/microservices/microservices-patterns-training.md)**: Mapeamento de 31 padrões de arquitetura distribuída, cobrindo desde API Gateways e Sagas até mecanismos de isolamento multi-tenant, migração ao vivo sem downtime e transações distribuídas (TCC).
 * **[Guia de Algoritmos & Concorrência](./docs/algorithms/README.md)**: Mapeamento de 23 estruturas de dados e algoritmos de alta performance, cobrindo os 15 padrões de código essenciais (como Sliding Window e Topological Sort) e 8 estruturas avançadas de Big Techs (como LSM-Tree, HyperLogLog, CAS SkipList e Quadtree Concorrente).
 * **[Guia de Simulação de Entrevistas Staff (Q&A de Elite)](./docs/interview-prep/staff-drill-qa.md)**: Sessão prática de perguntas e respostas técnicas aprofundadas sobre os cenários mais complexos do monorepo (como concorrência Pix, limitações Dataprev, race conditions de cache híbrido, fency tokens e pointer tagging).
+* **[Desafios de Recrutamento (Staff Engineer)](./docs/recruitment-challenge/README.md)**: Simulações ponta a ponta de processos seletivos de Big Tech (Tech Recruiter & Staff Engineer), englobando triagem, Q&A técnico, desafios Onsite de arquitetura/código e liderança para 6 domínios reais de mercado.
 
 
 ---
