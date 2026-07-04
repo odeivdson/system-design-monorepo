@@ -158,5 +158,11 @@ Aqui estão os algoritmos distribuídos e padrões de controle de fluxo de infra
 * **Onde treinar no Monorepo**: [22-sorting-algorithms](./22-sorting-algorithms/README.md).
 * **Foco Staff**: Empregar micro-otimizações como zero alocação de Heap, substituição de comparadores virtuais por inline primitivos e acoplamento híbrido com Insertion Sort para subarrays curtos.
 
+### 27. Inferência Bayesiana e Decisões Estatísticas Concorrentes
+* **O Padrão**: Atualização incremental probabilística em tempo real de hipóteses frente a evidências observadas em fluxos de eventos contínuos, empregando Thompson Sampling Beta-Binomial e Filtros Bayesianos Recursivos.
+* **Onde treinar no Monorepo**: [23-bayesian-inference](./23-bayesian-inference/README.md).
+* **Foco Staff**: Garantir atualizações estatísticas atômicas lock-free e geração de números aleatórios eficientes da distribuição Beta sem causar alocações de memória temporária.
+
+
 
 
