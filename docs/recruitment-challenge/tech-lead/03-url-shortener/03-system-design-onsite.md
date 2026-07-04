@@ -18,10 +18,11 @@ Projete a arquitetura de um **Encurtador de URLs e Plataforma de Rastreamento de
 ```mermaid
 graph TD
     A[Navegador Cliente] -->|HTTP GET /token| B[Redirection Web Server]
-    B -->|Check Cache| C[(Distributed Cache - Redis)]
-    C -->|Miss| D[(Database NoSQL / DynamoDB)]
-    B -->|Redirect HTTP 302| A
-    B -->|Log Click Event| E[Kafka Broker]
+    B -->|1. Check Cache| C[(Distributed Cache - Redis)]
+    B -->|2. Query DB on Cache Miss| D[(Database NoSQL / DynamoDB)]
+    B -->|3. Grava Cache se Miss| C
+    B -->|4. Redirect HTTP 302| A
+    B -->|5. Log Click Event| E[Kafka Broker]
     E -->|Assíncrono| F[Analytics Consumer Service]
     F -->|Grava Métricas| G[(Analytics DB / ClickHouse)]
 ```

@@ -16,10 +16,10 @@ Projete o sistema de **Encurtamento e Redirecionamento de Links** para o site da
 ```mermaid
 graph TD
     A[Navegador Cliente] -->|GET /t/{token}| B[Shortener Server]
-    B -->|Check Cache| C[(Redis Cache)]
-    C -->|Miss| D[(DynamoDB/Key-Value)]
-    B -->|Grava Cache se Miss| C
-    B -->|Redirect HTTP 302| A
+    B -->|1. Check Cache| C[(Redis Cache)]
+    B -->|2. Query DB on Cache Miss| D[(DynamoDB/Key-Value)]
+    B -->|3. Grava Cache se Miss| C
+    B -->|4. Redirect HTTP 302| A
 ```
 
 ---

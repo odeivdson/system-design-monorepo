@@ -20,9 +20,10 @@ Projete uma plataforma de **Encurtamento de URLs e Coleta de Métricas Analític
 graph TD
     A[Usuário Final] -->|Acessa URL Curta| B[CDN / Edge Cache]
     B -->|Miss - Requisição HTTP <15ms SLA| C[Redirection Service]
-    C -->|Consulta Rápida| D[(Distributed Cache / Redis Cluster)]
-    D -->|Miss| E[(NoSQL Database / Cassandra / DynamoDB)]
-    C -->|Publica Clique Assíncrono| F[Kafka Clickstream]
+    C -->|1. Check Cache| D[(Distributed Cache / Redis Cluster)]
+    C -->|2. Query DB on Cache Miss| E[(NoSQL Database / Cassandra / DynamoDB)]
+    C -->|3. Grava Cache se Miss| D
+    C -->|4. Publica Clique Assíncrono| F[Kafka Clickstream]
     F -->|Consumo Analítico| G[ClickHouse Database]
     H[Key Generation Service - KGS] -->|Gera Chaves em Lotes| E
 ```
