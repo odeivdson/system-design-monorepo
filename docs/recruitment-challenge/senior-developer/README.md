@@ -20,6 +20,10 @@ Selecione um dos desafios de arquitetura abaixo para iniciar a preparação:
 * **Tema:** Encurtador de links e estratégias de cache.
 * **Foco Senior Developer:** Algoritmos de encurtamento (Base62) limpos, cache de leitura/gravação local e distribuído (Redis), tratamento de erros HTTP semânticos e testes unitários.
 
+### 📈 [Desafio 04: Ingestão de Analytics em Larga Escala](./04-analytics-ingestion-pipeline/README.md)
+* **Tema:** Pipeline de telemetria com alta taxa de gravação.
+* **Foco Senior Developer:** Buffer/batching local em memória thread-safe, sharding de banco de dados NoSQL sem hotspots, e trade-offs de durabilidade de dados.
+
 ---
 
 ## 🏆 Critérios de Avaliação Principais para Dev Senior
