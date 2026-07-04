@@ -55,8 +55,7 @@ Para iniciar seus estudos, navegue pelos índices e matrizes de cobertura dos do
 
 * **[Guia de Microsserviços & System Design](./docs/microservices/microservices-patterns-training.md)**: Mapeamento de 31 padrões de arquitetura distribuída, cobrindo desde API Gateways e Sagas até mecanismos de isolamento multi-tenant, migração ao vivo sem downtime e transações distribuídas (TCC).
 * **[Guia de Algoritmos & Concorrência](./docs/algorithms/README.md)**: Mapeamento de 23 estruturas de dados e algoritmos de alta performance, cobrindo os 15 padrões de código essenciais (como Sliding Window e Topological Sort) e 8 estruturas avançadas de Big Techs (como LSM-Tree, HyperLogLog, CAS SkipList e Quadtree Concorrente).
-* **[Portal de Desafios de Recrutamento (Multi-Nível)](./docs/recruitment-challenge/README.md)**: Simulações ponta a ponta de processos seletivos de Big Tech (Tech Recruiter & Staff Engineer), englobando triagem, Q&A técnico, desafios Onsite de arquitetura/código e liderança divididos por níveis (Senior Developer, Tech Lead e Staff Engineer).
-* **[Q&As de Simulação de Entrevistas (Senior, Tech Lead, Staff)](./docs/recruitment-challenge/README.md#-selecione-seu-nível-de-preparação)**: Sessões práticas de perguntas e respostas técnicas aprofundadas com foco em cada nível de carreira.
+* **[Portal de Desafios & Q&As de Recrutamento](./docs/recruitment-challenge/README.md)**: Simulações ponta a ponta de processos seletivos de Big Tech (triagem, System Design, Coding e Liderança) e guias de perguntas e respostas técnicas de elite adaptadas para os níveis Senior Developer, Tech Lead e Staff Engineer.
 
 
 ---
