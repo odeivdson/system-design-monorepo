@@ -12,7 +12,14 @@ Na engenharia de software de alto nível (Senior Staff/Principal), algoritmos n�
 
 ---
 
-## 2. Matriz de Cobertura e Mapeamento: 15 Padrões Essenciais de Código (JavaRevisited)
+## 2. Treinamento de Fundamentos: Complexidade de Tempo (Big-O)
+Antes de avançar para os padrões algorítmicos complexos de concorrência e de nível de infraestrutura, é indispensável dominar a análise de complexidade de tempo de pior caso ($Big-O$) e a identificação de padrões estruturais de código.
+* **Módulo de Fundamentos**: [Desafios de Complexidade de Tempo](./00-time-complexity-challenges/README.md)
+* **Objetivo**: Estudar e reconhecer de forma imediata laços lineares ($O(n)$), divisões logarítmicas ($O(\log n)$), ordenação e divisões ($O(n \log n)$), laços aninhados ($O(n^2)$) e recorrências exponenciais ($O(\varphi^n)$) através de 15 desafios focados.
+
+---
+
+## 3. Matriz de Cobertura e Mapeamento: 15 Padrões Essenciais de Código (JavaRevisited)
 
 Aqui, mapeamos os 15 padrões de código essenciais consagrados na preparação técnica, readequados para cenários práticos e escaláveis no monorepo:
 
@@ -92,7 +99,7 @@ Aqui, mapeamos os 15 padrões de código essenciais consagrados na preparação 
 
 ---
 
-## 3. Matriz de Mapeamento: Algoritmos e Estruturas de Dados Avançadas de Big Techs
+## 4. Matriz de Mapeamento: Algoritmos e Estruturas de Dados Avançadas de Big Techs
 
 Aqui estão os algoritmos distribuídos e padrões de controle de fluxo de infraestrutura de alto nível presentes nas pastas de algoritmos:
 
