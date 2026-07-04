@@ -1,4 +1,4 @@
-﻿# Desafio 17: Resolutor de Dependências com Grafo Acíclico Direcionado - DAG (`algo-dependency-resolver`)
+# Desafio 10: Resolutor de Dependências com Grafo Acíclico Direcionado - DAG (`algo-dependency-resolver`)
 
 ## 1. Contexto & Cenário
 Em grandes sistemas baseados em microsserviços, gerenciadores de pacotes (como npm, NuGet ou Maven) ou motores de compilação de código e orquestração de tarefas, o controle de ordem de execução e dependências entre componentes é uma funcionalidade essencial. Por exemplo, ao iniciar uma aplicação composta por múltiplos serviços, o banco de dados de autenticação deve subir antes do microsserviço de usuários, que por sua vez deve estar pronto antes do microsserviço de checkout.

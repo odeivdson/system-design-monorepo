@@ -1,4 +1,4 @@
-﻿# Desafio 25: Roteamento Dinâmico para Consistência Read-After-Write (`algo-read-after-write-routing`)
+# Desafio 12: Roteamento Dinâmico para Consistência Read-After-Write (`algo-read-after-write-routing`)
 > **Padrões de Arquitetura Distribuída:** Read-After-Write Consistency (Consistência de Sessão), Replication Lag Mitigation (Mitigação de Atraso), Dynamic Data Source Routing (Roteamento de Conexão).
 
 ## 1. Contexto & Cenário

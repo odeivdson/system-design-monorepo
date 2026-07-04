@@ -1,4 +1,4 @@
-﻿# Desafio 12: Filtro de Bloom Concorrente Otimizado (`algo-concurrent-bloom-filter`)
+# Desafio 5: Filtro de Bloom Concorrente Otimizado (`algo-concurrent-bloom-filter`)
 
 ## 1. Contexto & Cenário
 Em sistemas de alto tráfego com armazenamento de dados distribuído (como verificação de nomes de usuário disponíveis no Instagram, filtragem de URLs maliciosas no navegador ou checagem de existência de chaves antes de bater no banco de dados para mitigar ataques de cache penetration), a velocidade é tudo. Consultar o banco de dados principal ou realizar acessos frequentes a discos para checar a existência de chaves que majoritariamente não existem gera gargalos intoleráveis de performance. 

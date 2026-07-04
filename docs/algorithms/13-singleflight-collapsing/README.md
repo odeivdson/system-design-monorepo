@@ -1,4 +1,4 @@
-﻿# Desafio 24: Single-Flight para Colapso de Requisições Concorrentes (`algo-singleflight-collapsing`)
+# Desafio 13: Single-Flight para Colapso de Requisições Concorrentes (`algo-singleflight-collapsing`)
 > **Padrões de Arquitetura Distribuída e Concorrência:** Single-Flight (Request Collapsing), Cache Stampede Mitigation (Prevenção de Sobrecarga), Concorrência Lock-Free/Fine-Grained.
 
 ## 1. Contexto & Cenário

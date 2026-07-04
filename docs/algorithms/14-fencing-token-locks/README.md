@@ -1,4 +1,4 @@
-﻿# Desafio 26: Lock Distribuído com Fencing Tokens e Leases (`algo-fencing-token-locks`)
+# Desafio 14: Lock Distribuído com Fencing Tokens e Leases (`algo-fencing-token-locks`)
 > **Padrões de Arquitetura Distribuída e Concorrência:** Distributed Locks (Locks Compartilhados), Leases (Prazos de Validade), Fencing Tokens (Tokens de Bloqueio), Optimistic Storage Concurrency (Consistência de Escrita).
 
 ## 1. Contexto & Cenário

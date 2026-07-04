@@ -1,4 +1,4 @@
-﻿# Desafio 22: Proxy Sidecar de Malha de Serviços (`service-mesh-sidecar-proxy`)
+# Desafio 10: Proxy Sidecar de Malha de Serviços (`service-mesh-sidecar-proxy`)
 > **Padrões de Microsserviços Associados:** Sidecar (Desacoplamento de Infraestrutura), Service Registry (Descoberta Dinâmica), Consumer-Driven Contracts (Garantia de Acordo), Shadow Deployment (Teste de Tráfego Real).
 
 ## 1. Contexto & Cenário

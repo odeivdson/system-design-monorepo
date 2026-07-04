@@ -1,4 +1,4 @@
-﻿# Desafio 16: Motor de Busca com Tolerância a Erros - Edit Distance (`algo-search-similarity`)
+# Desafio 9: Motor de Busca com Tolerância a Erros - Edit Distance (`algo-search-similarity`)
 
 ## 1. Contexto & Cenário
 No comércio eletrônico moderno e em grandes ferramentas de busca, a barra de pesquisa é a principal porta de entrada para a navegação do usuário. É comum que usuários digitem termos de busca com erros de digitação, omissões ou trocas de letras (ex: digitar "jelfadeira" em vez de "geladeira", ou "smaftv" em vez de "smart tv"). Se o motor de busca realizar apenas buscas exatas (substring matching), ele retornará zero resultados, frustrando o cliente e causando abandono de sessões e perda direta de conversão. 

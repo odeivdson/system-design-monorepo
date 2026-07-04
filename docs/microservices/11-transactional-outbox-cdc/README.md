@@ -1,4 +1,4 @@
-﻿# Desafio 23: Transactional Outbox com CDC (`algo-transactional-outbox-cdc`)
+# Desafio 11: Transactional Outbox com CDC (`algo-transactional-outbox-cdc`)
 > **Padrões de Arquitetura Distribuída:** Transactional Outbox (Consistência Dual), Change Data Capture - CDC (Tailing de Logs), At-Least-Once Delivery (Garantia de Entrega).
 
 ## 1. Contexto & Cenário

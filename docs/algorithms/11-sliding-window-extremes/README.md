@@ -1,4 +1,4 @@
-﻿# Desafio 18: Extremos em Janela Deslizante com Fila Monotônica (`algo-sliding-window-extremes`)
+# Desafio 11: Extremos em Janela Deslizante com Fila Monotônica (`algo-sliding-window-extremes`)
 
 ## 1. Contexto & Cenário
 Em sistemas de monitoramento de infraestrutura e telemetria em tempo real (como acompanhamento de latências de APIs do gateway do Uber ou volume de requisições de servidores da Netflix), a detecção precoce de anomalias é crucial. Uma métrica padrão utilizada por engenheiros de confiabilidade de sites (SRE) é o cálculo do menor e maior valor de tempo de resposta (latência máxima/mínima) em uma janela de tempo deslizante recente (ex: a latência máxima registrada nas últimas 10.000 requisições recebidas).

@@ -1,4 +1,4 @@
-﻿# Desafio 8: Agrupador de Logs por Janela de Tempo e Tamanho (`algo-log-batching-buffer`)
+# Desafio 2: Agrupador de Logs por Janela de Tempo e Tamanho (`algo-log-batching-buffer`)
 
 ## 1. Contexto & Cenário
 Em arquiteturas de microsserviços e sistemas distribuídos em escala de produção (ex: telemetria na Netflix ou ingestão de eventos de clickstream no Mercado Livre), a geração de logs e métricas alcança facilmente dezenas de milhões de eventos por minuto. Se cada linha de log ou métrica for enviada individualmente ao provedor externo de monitoramento (ex: Datadog, Splunk ou Elasticsearch) por meio de uma requisição de rede HTTP direta, a aplicação sofrerá uma degradação de performance drástica. 

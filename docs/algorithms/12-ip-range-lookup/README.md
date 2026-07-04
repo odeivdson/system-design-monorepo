@@ -1,4 +1,4 @@
-﻿# Desafio 19: Validador e Busca de Faixas de IP com Árvore de Intervalos (`algo-ip-range-lookup`)
+# Desafio 12: Validador e Busca de Faixas de IP com Árvore de Intervalos (`algo-ip-range-lookup`)
 
 ## 1. Contexto & Cenário
 Em gateways de API de alta performance e firewalls de aplicações web (WAF) (como Cloudflare ou AWS WAF), cada requisição HTTP de entrada é acompanhada pelo endereço IP de origem do cliente (ex: `192.168.1.1` ou `2001:db8::1`). Por questões de segurança (bloqueio de bots maliciosos baseados em geolocalização ou regras de conformidade corporativa), o sistema deve validar se o IP de origem pertence a uma lista contendo centenas de milhares de blocos de faixas de IP conhecidos (ex: CIDR Blocks como `192.168.0.0/16` ou faixas explicitadas como `192.168.1.0-192.168.1.255`).

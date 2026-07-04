@@ -1,4 +1,4 @@
-﻿# Desafio 11: Roda de Temporização Hierárquica (`algo-hierarchical-timer-wheel`)
+# Desafio 4: Roda de Temporização Hierárquica (`algo-hierarchical-timer-wheel`)
 
 ## 1. Contexto & Cenário
 Em servidores de rede de alto tráfego (como proxies reversos, API Gateways ou brokers de mensageria como Apache Kafka) e despachantes assíncronos (como motores de envio de webhooks), o gerenciamento de milhões de timers de curto prazo é um desafio clássico. Por exemplo, monitorar timeouts de conexões TCP, agendar retentativas de webhooks com segundos de atraso ou impor quotas de uso. 

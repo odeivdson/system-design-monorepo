@@ -1,4 +1,4 @@
-﻿# Desafio 9: Mecanismo de Busca por Prefixo Otimizado para Memória (`algo-high-performance-trie`)
+# Desafio 3: Mecanismo de Busca por Prefixo Otimizado para Memória (`algo-high-performance-trie`)
 
 ## 1. Contexto & Cenário
 Em plataformas de grande escala (como o campo de pesquisa principal do Mercado Livre ou sugestões de buscas no Netflix), a velocidade do recurso de autocompletar (autocomplete) dita a experiência de conversão do usuário. À medida que o usuário digita cada caractere (ex: "g", "ge", "gel"), o sistema precisa retornar instantaneamente as sugestões mais populares (ex: "geladeira", "geladeira frost free", "gelo"). Consultar bancos de dados relacionais usando `LIKE '%gel%'` a cada pressionamento de tecla sob uma carga massiva de usuários é inviável, levando ao colapso imediato dos servidores de banco.

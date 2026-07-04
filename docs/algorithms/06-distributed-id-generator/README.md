@@ -1,4 +1,4 @@
-﻿# Desafio 13: Gerador de IDs Distribuídos Únicos (`algo-distributed-id-generator`)
+# Desafio 6: Gerador de IDs Distribuídos Únicos (`algo-distributed-id-generator`)
 
 ## 1. Contexto & Cenário
 Em arquiteturas de microsserviços altamente distribuídas e com particionamento de dados (sharding) massivo, a geração de IDs únicos para entidades de negócios (como transações, ordens de compra ou usuários) é um requisito fundamental. Em bancos de dados monolíticos tradicionais, confiamos na numeração auto-incremental fornecida pela própria engine do banco. No entanto, em um ambiente fragmentado onde as escritas são enviadas para múltiplos servidores PostgreSQL ou MySQL independentes, IDs incrementais locais colidirão inevitavelmente.

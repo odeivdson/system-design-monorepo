@@ -1,4 +1,4 @@
-﻿# Desafio 21: Carteira Digital Baseada em Event Sourcing & CQRS (`event-sourced-wallet`)
+# Desafio 9: Carteira Digital Baseada em Event Sourcing & CQRS (`event-sourced-wallet`)
 > **Padrões de Microsserviços Associados:** Event Sourcing (Auditoria e Reconstrução), CQRS (Segregação de Leitura e Escrita), Polyglot Persistence (Event Store + Cache de Projeção), Database per Service (Autonomia de Dados).
 
 ## 1. Contexto & Cenário

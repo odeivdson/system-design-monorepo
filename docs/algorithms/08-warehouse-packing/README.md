@@ -1,4 +1,4 @@
-﻿# Desafio 15: Alocador de Caixas Tridimensional - 3D Bin Packing (`algo-warehouse-packing`)
+# Desafio 8: Alocador de Caixas Tridimensional - 3D Bin Packing (`algo-warehouse-packing`)
 
 ## 1. Contexto & Cenário
 No processo de checkout de grandes plataformas de e-commerce e sistemas integrados de logística, o cálculo do valor do frete e a seleção das embalagens adequadas dependem diretamente do volume físico e da quantidade de caixas necessárias para transportar os itens comprados pelo usuário. Quando um cliente realiza uma compra contendo múltiplos produtos de dimensões variadas (ex: um teclado de computador, um livro e dois carregadores de celular), o sistema precisa determinar instantaneamente o menor número de caixas de envio padrão (e seus respectivos tamanhos) necessárias para acomodar os itens, além de definir a orientação tridimensional exata de cada produto dentro de cada caixa para evitar danos e desperdício de espaço.

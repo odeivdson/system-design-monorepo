@@ -1,4 +1,4 @@
-﻿# Desafio 10: Anel de Hash Consistente com Nós Virtuais (`algo-consistent-hashing-ring`)
+# Desafio 7: Anel de Hash Consistente com Nós Virtuais (`algo-consistent-hashing-ring`)
 
 ## 1. Contexto & Cenário
 Em sistemas distribuídos que gerenciam grandes volumes de cache ou armazenamento fragmentado (sharding) (ex: clusters de Memcached/Redis na Netflix ou particionamento de banco de dados no Mercado Livre), a distribuição uniforme de chaves entre nós servidores é crítica. Uma abordagem ingênua baseada em módulo aritmético ($node = Hash(key) \pmod N$, onde $N$ é o número de nós servidores) funciona até que ocorra uma alteração na topologia. Se um nó cair ou um novo nó for adicionado, quase todas as chaves existentes serão mapeadas para nós diferentes, gerando perda massiva de cache (*cache stampede*) e sobrecarregando instantaneamente o banco de dados durável.

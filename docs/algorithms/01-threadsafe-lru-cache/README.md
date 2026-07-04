@@ -1,4 +1,4 @@
-﻿# Desafio 7: Cache LRU (Least Recently Used) Thread-Safe de Alta Performance (`algo-threadsafe-lru-cache`)
+# Desafio 1: Cache LRU (Least Recently Used) Thread-Safe de Alta Performance (`algo-threadsafe-lru-cache`)
 
 ## 1. Contexto & Cenário
 Em microsserviços de alto tráfego (como gateways de API de borda, proxies de roteamento ou resolvedores de DNS), o acesso repetido a repositórios de dados externos causa degradação severa da latência geral. Para evitar consultas excessivas a bancos de dados ou chamadas de rede, implementamos cache local em memória. No entanto, a memória física de uma instância é finita e deve ser estritamente controlada para evitar estouro de memória (Out-Of-Memory - OOM). A política LRU (Least Recently Used) é ideal para isso, pois expulsa os elementos menos utilizados recentemente quando a capacidade máxima é atingida.

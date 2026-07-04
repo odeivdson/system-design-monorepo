@@ -1,4 +1,4 @@
-﻿# Desafio 14: Otimizador de Rotas de Entrega com SLAs (`algo-delivery-routing`)
+# Desafio 7: Otimizador de Rotas de Entrega com SLAs (`algo-delivery-routing`)
 
 ## 1. Contexto & Cenário
 Na malha logística de grandes plataformas de e-commerce e transportadoras globais, milhares de pacotes devem ser distribuídos diariamente a partir de Centros de Distribuição (CDs) para múltiplos endereços de clientes. Para operar com custos viáveis, uma frota de vans de entrega deve ser roteada de forma ótima. Cada veículo possui uma capacidade de carga física máxima e cada endereço de entrega possui uma janela de tempo rígida (SLA de entrega garantido, ex: "entrega das 10h às 12h"). 

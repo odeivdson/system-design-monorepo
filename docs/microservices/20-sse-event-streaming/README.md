@@ -1,4 +1,4 @@
-# Desafio 24: Streaming de Eventos via Server-Sent Events (`sse-event-streaming`)
+# Desafio 20: Streaming de Eventos via Server-Sent Events (`sse-event-streaming`)
 > **Padrões de Microsserviços Associados:** Server-Sent Events (SSE), Event Streaming, Stateless Services, Smart Endpoints, HTTP Push, Reactive Streams.
 
 ## 1. Contexto & Cenário
