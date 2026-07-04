@@ -15,7 +15,7 @@ Projete o sistema de **Encurtamento e Redirecionamento de Links** para o site da
 
 ```mermaid
 graph TD
-    A[Navegador Cliente] -->|GET /t/{token}| B[Shortener Server]
+    A[Navegador Cliente] -->|"GET /t/{token}"| B[Shortener Server]
     B -->|1. Check Cache| C[(Redis Cache)]
     B -->|2. Query DB on Cache Miss| D[(DynamoDB/Key-Value)]
     B -->|3. Grava Cache se Miss| C
