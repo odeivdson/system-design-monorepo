@@ -173,4 +173,22 @@ Na engenharia de software de alto nível (Staff/Principal), padrões não são a
 * **Onde treinar no Monorepo**: [20-sse-event-streaming](./20-sse-event-streaming/README.md).
 * **Foco Staff**: Implementar conexões longas eficientes, filtros de tenant/user e retransmissão segura usando `Last-Event-ID`, mantendo alto throughput e baixa latência mesmo por trás de proxies/balanceadores.
 
+### 36. Zero Trust Identity Propagation com Token Handler
+* **O Padrão**: Tradução de sessões com cookies estaduais em tokens JWT apátridas e criptográficos no BFF (Token Handler) e propagação desse contexto assinado internamente, aplicando validação distribuída com chaves públicas (JWKS).
+* **Onde treinar no Monorepo**: [21-zero-trust-identity-propagation](./21-zero-trust-identity-propagation/README.md).
+* **Foco Staff**: Eliminação de tokens de acesso no browser do usuário, cache de chaves públicas offline com recarga assíncrona tolerante a falhas do IDP, mitigação de token replay e controle do tamanho dos cabeçalhos internos.
+
+### 37. Vector Search & RAG Orchestration
+* **O Padrão**: Ingestão assíncrona e segmentada de dados não estruturados com geração de embeddings em background e orquestração síncrona de busca semântica em banco vetorial, combinado com Prompt Engineering e integração resiliente com APIs de LLM.
+* **Onde treinar no Monorepo**: [22-vector-search-rag-architecture](./22-vector-search-rag-architecture/README.md).
+* **Foco Staff**: Latência de busca P99 reduzida com indexação HNSW, particionamento lógico para multi-tenancy, implementação de Semantic Caching (Redis) para economia de tokens e fallback automático sob indisponibilidade de LLM externa.
+
+### 38. Low-Latency Model Serving & Dynamic Batching
+* **O Padrão**: Formação dinâmica de lotes de inferência em buffers concorrentes de curtíssimo atraso para maximizar o paralelismo matricial de hardware (CPU/GPU) no servimento de predições de ML/DL, segregando threads de rede de workers de inferência.
+* **Onde treinar no Monorepo**: [23-low-latency-model-serving](./23-low-latency-model-serving/README.md).
+* **Foco Staff**: Minimização de overhead de lock com enfileiramento lock-free, coordenação assíncrona baseada em Futures/Promises, autolimitação de lote contra OOM e ativação de heurísticas estáticas de fallback local sob sobrecarga.
+
+
+
+
 
