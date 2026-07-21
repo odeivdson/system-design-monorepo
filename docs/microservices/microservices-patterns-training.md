@@ -188,6 +188,12 @@ Na engenharia de software de alto nível (Staff/Principal), padrões não são a
 * **Onde treinar no Monorepo**: [23-low-latency-model-serving](./23-low-latency-model-serving/README.md).
 * **Foco Staff**: Minimização de overhead de lock com enfileiramento lock-free, coordenação assíncrona baseada em Futures/Promises, autolimitação de lote contra OOM e ativação de heurísticas estáticas de fallback local sob sobrecarga.
 
+### 39. Message Broker vs. Event Stream Selection
+* **O Padrão**: Análise e chaveamento de tecnologias de mensageria distribuída a partir da comparação profunda de modelos baseados em fila (Queue-centric / transient RabbitMQ/SQS) e logs distribuídos imutáveis (Log-centric / persistent Kafka) com base em vazão, latência, ordenação e acoplamento operacional.
+* **Onde treinar no Monorepo**: [24-messaging-architectural-decision-matrix](./24-messaging-architectural-decision-matrix/README.md).
+* **Foco Staff**: Otimizações de rede do Kafka (Zero-Copy com sendfile, PageCache), padrão de roteamento Fan-out distribuído (SNS+SQS), Competing Consumers com buffers locais, replay de offset e DLQs tolerantes a falhas.
+
+
 
 
 
