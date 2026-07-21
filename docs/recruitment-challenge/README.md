@@ -25,7 +25,7 @@ Escolha o nível de carreira desejado para acessar os desafios e rubricas corres
 ### 🏛️ [Trilha 3: Staff Software Engineer (Staff+ - L6+)](./staff-engineer/README.md)
 * **Escopo de Impacto:** Líder técnico estratégico com impacto sistêmico cross-team, definindo a direção tecnológica para múltiplos times ou sub-departamentos da organização.
 * **Q&A de Preparação:** **[Guia de Simulação de Entrevistas Staff (Q&A de Elite)](./staff-engineer/staff-drill-qa.md)**
-* **Desafios Inclusos:** 6 trilhas completas de ultra escala (FinTech Ledger Global, Ride-Sharing Otimizado, AdTech Leilão de Ultra Latência, Editor CRDT Colaborativo, IoT Analytics Pipeline e URL Shortener Anti-Abuso).
+* **Desafios Inclusos:** 9 trilhas completas de ultra escala (FinTech Ledger Global, Ride-Sharing Otimizado, AdTech Leilão de Ultra Latência, Editor CRDT Colaborativo, IoT Analytics Pipeline, URL Shortener Anti-Abuso, Streaming de Vídeo Distribuído, Rede Social & Feed de Notícias e Leaderboard Global Real-Time).
 * **Foco da Avaliação:** Sistemas distribuídos avançados (CAP/PACELC), concorrência lock-free, otimizações de runtime (GC, CPU cache lines), backpressure reativo, análise de custos (cloud vs. margem de negócio) e influência sem autoridade.
 
 ---

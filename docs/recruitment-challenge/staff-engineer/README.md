@@ -2,7 +2,7 @@
 
 Bem-vindo ao repositório de simulações de contratação para posições de **Staff Software Engineer (L6+)** da nossa Big Tech. 
 
-Este espaço reúne **6 trilhas completas de desafios** cobrindo diferentes domínios arquiteturais e de negócios. Cada trilha é autônoma e guia o candidato e os entrevistadores de ponta a ponta: desde a triagem inicial do recrutador até as sessões Onsite presenciais de código, design de sistemas e liderança sistêmica.
+Este espaço reúne **9 trilhas completas de desafios** cobrindo diferentes domínios arquiteturais e de negócios. Cada trilha é autônoma e guia o candidato e os entrevistadores de ponta a ponta: desde a triagem inicial do recrutador até as sessões Onsite presenciais de código, design de sistemas e liderança sistêmica.
 
 ---
 
@@ -13,7 +13,7 @@ Este espaço reúne **6 trilhas completas de desafios** cobrindo diferentes dom�
 
 ---
 
-## 🗺️ As 6 Trilhas de Desafios por Domínio
+## 🗺️ As 9 Trilhas de Desafios por Domínio
 
 Selecione abaixo o domínio correspondente à vaga pretendida para visualizar a documentação completa de todas as etapas:
 
@@ -53,8 +53,26 @@ Selecione abaixo o domínio correspondente à vaga pretendida para visualizar a 
 * **Coding:** Gerador de chaves local e cache com política de limpeza concorrente (LRU).
 * **Liderança:** Combater ataques em massa de phishing/spam e gerenciar invalidação global de CDN sob tráfego crítico.
 
+### 📺 [Trilha 7: Video Streaming & Edge Distribution](./07-video-streaming/README.md)
+* **Domínio:** Streaming de Mídia de Ultra Vazão e CDNs.
+* **System Design:** Pipeline global de encoding de vídeo com empacotamento dinâmico (HLS/DASH) e cache regional anti-stampede.
+* **Coding:** Simulador de gateway de vídeo concorrente com controle de banda (Throttling) e backpressure reativo.
+* **Liderança:** Negociação de custos de egress de cloud vs. qualidade de vídeo (QoS) e adoção de algoritmos de compressão de próxima geração.
+
+### 👥 [Trilha 8: Social Network Feed Engine](./08-social-network-feed/README.md)
+* **Domínio:** Redes Sociais e Grafos Distribuídos.
+* **System Design:** Geração de timelines dinâmicas em alta escala usando arquitetura de Fan-out híbrido (Push/Pull).
+* **Coding:** Fusão concorrente ordenada de timelines (K-Way Merge) via priority queues livres de GC pressure.
+* **Liderança:** Tratamento de lag de propagação de posts em eventos de tráfego intenso e migração online de stores de feed.
+
+### 🏆 [Trilha 9: Real-Time Leaderboard & Gamification](./09-realtime-leaderboard/README.md)
+* **Domínio:** Jogos Multi-jogador e Sistemas em Tempo Real.
+* **System Design:** Motor de rankeamento de alta frequência, conexões WebSocket massivas de quiz ao vivo (1M+ CCU) e buffers de ingestão.
+* **Coding:** SkipList concorrente lock-free para pontuação de usuários com atualizações em complexidade $O(\log N)$.
+* **Liderança:** Resolução de debates sobre uso de bancos relacionais com índices quentes para rankings dinâmicos e contenção de picos de tráfego instantâneos.
+
 ---
 
 > [!IMPORTANT]
 > **Expectativas Gerais de Nível Staff (L6+)**:
-> Em qualquer uma das 6 trilhas, o candidato não será medido apenas pelo sucesso do "caminho feliz" (*happy path*). Ele deve ser capaz de falar com autoridade sobre gerenciamento de riscos sistêmicos, custos operacionais, facilidade de manutenção por outros engenheiros, e o impacto direto das escolhas técnicas nos objetivos estratégicos de negócio da empresa.
+> Em qualquer uma das 9 trilhas, o candidato não será medido apenas pelo sucesso do "caminho feliz" (*happy path*). Ele deve ser capaz de falar com autoridade sobre gerenciamento de riscos sistêmicos, custos operacionais, facilidade de manutenção por outros engenheiros, e o impacto direto das escolhas técnicas nos objetivos estratégicos de negócio da empresa.
